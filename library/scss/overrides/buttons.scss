@@ -1,0 +1,25 @@
+.gform_footer input[type=submit] {
+    background:$main-brand!important;
+    background-color:$main-brand!important;
+}
+
+
+
+.btn-brand-alt {
+    @include fs(16);
+    background:$main-brand-alt;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:8px;
+    opacity:1;
+    transition:opacity 0.5s ease;
+    color: white;
+    min-width: 200px;
+
+    &:focus,
+    &:hover {
+        color: $main-brand;
+    }
+}

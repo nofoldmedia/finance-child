@@ -1,0 +1,62 @@
+.vid-hero {
+
+
+    .background {
+        padding-bottom:0;
+        background: #e8ecef;
+    }
+
+    .vid-row {
+
+
+        .container {
+            display:block;
+            height:100%;
+
+            .row {
+                .row-inner {
+                    display:flex;
+                    margin:0 auto;
+                    align-items: center;
+                    justify-content: center;
+
+                    .left-col {
+
+                        width:60%;
+
+                        h1 {
+                            @include fs(52);
+                        }
+
+                        @media(max-width:$screen-sm-max) {
+                            width:90%;
+                        }
+
+                        .text {
+
+                            padding-top:30px;
+                            color:#999;
+
+                            width:80%;
+                            
+                
+                        }
+                    }
+    
+                    .right-col {
+                        width:40%;
+
+                
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+

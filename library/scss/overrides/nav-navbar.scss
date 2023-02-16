@@ -1,0 +1,74 @@
+
+// .navbar-default .navbar-nav > .active > a,
+// .navbar-default .navbar-nav > .active > a:hover{
+//     color: $brand-primary;
+// }
+
+
+// #menu-main-menu,
+// #events-menu {
+//     > li {
+//         > a {
+//             &:hover,
+//             &:focus {
+//                 color: $brand-primary;
+//             }
+//         }
+//     }
+// }
+
+
+// Primary nav
+#menu-main-menu > li {
+    > a {
+        // background: $main-brand-alt;
+        color: #fff;
+        &:hover,
+        &:focus {
+            color: #000;
+        }
+    } 
+    &.active{
+        > a {
+            color: #000;
+        }
+    }   
+    &.brochure-nav {
+        > a {
+            background: $main-brand-alt;
+            color: #fff;
+            &:hover,
+            &:focus {
+                background: $main-brand-alt-brand-bgd;
+                color: #fff;
+            }
+        }
+    }
+}
+
+// Events nav
+#events-menu > li {
+    > a {
+        color: #fff;
+        &:hover,
+        &:focus {
+            color: $main-brand;
+        }
+    } 
+    &.active{
+        > a {
+            color: $main-brand;
+        }
+    }        
+    &.brochure-nav {
+        > a {
+            background: $main-brand-alt;
+            color: #fff;
+            &:hover,
+            &:focus {
+                background: $main-brand-alt-black-bgd;
+                color: #fff;
+            }
+        }
+    }
+}

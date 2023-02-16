@@ -1,0 +1,33 @@
+//  Hero buttons
+.tm-btn-large-solid {
+    background-color:$main-brand-alt;
+    &:hover{
+        background-color:$main-brand-alt-hover;
+    }
+}
+
+.block-teasers--site-ctas-group-brand-industry{
+    .tm-btn-large-solid {
+        background-color:#dabf21;
+        color: #000;
+    }
+}
+
+.tm-btn-large-hollow {
+    background-color: transparent;
+    border: 1px solid $main-brand;
+    color: $main-brand;
+    &:hover{
+        border: 1px solid $main-brand-hover;
+        color: $main-brand !important;
+    }
+}
+
+// Hollow buttons on black colour bgd
+.event-text.ev-global-brand-color{
+    .tm-btn-large-solid {
+        &:hover{
+            background: $main-brand-alt-black-bgd;
+        }
+    }
+}
